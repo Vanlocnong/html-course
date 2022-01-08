@@ -1,0 +1,17 @@
+/* Universal chỉ được 0 điểm(tag , class đều có thể thắng) */
+
+/* *{
+    color: blue;
+}
+h1{
+    color: green;
+} */
+
+/* inherited (ke thua) diem = 0 */
+html{
+    color: green;
+}
+
+p{
+    color: black;
+}

@@ -1,0 +1,56 @@
+/* Absolute units (đơn vị tuyệt đối)
+
+1 px
+2 pt
+3 cm
+4 mm
+5 inch
+6 pc
+
+Relative unit(tương đối sẽ cần một nơi để phụ thuộc vào) :
+
+1.% (phụ thuộc vào thẻ chứa nó)
+2.rem (phụ thuộc vào thẻ html)
+3.em
+4.vw
+5.vh
+6.vmin */
+
+/* 1.ví dụ % */
+.box{
+    width: 50%;
+    height: 50px;
+    background-color: green;
+}
+
+/*2. ví dụ rem */
+
+html{
+    font-size: 5px;
+}
+
+/* font size của html sẽ = 1 rem của h1 */
+h1{
+    font-size: 1rem;
+}
+
+/* 2.ví dụ em(phụ thuộc vào thẻ gần nhất có chứa thuộc tính tương tự) */
+
+h1{
+    font-size: 1em;
+}
+
+
+p{
+    font-size: 20px;
+}
+
+/* 3.ví dụ về vw-vh(viewpost width & height) */
+/* đơn vị phụ thuộc vào độ ngang của trình duyệt */
+/* 3.1 vw */
+
+.box{
+    width: 1vw;
+    height: 5vh;
+}
+

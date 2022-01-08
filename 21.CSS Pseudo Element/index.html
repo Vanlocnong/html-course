@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Web Developer</title>
+            <link rel="stylesheet" href="main.css">
+
+            <style>
+
+                .box{
+                   width: 100%;
+                   height: 30vh;
+                   background-color: green; 
+               }    
+
+                .box::before{
+                   content: "Wellcome to my website";
+                   display: block;
+                   font-size: 35px;
+                   color: honeydew;
+                   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+               }
+               .box::after{
+                   content: "Hello EveryOne";
+                   display: block;
+                   color: blue;
+                   font-size: 35px;
+                   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+               }
+               .content::first-line{
+                   content: "";
+                   display: block;
+                   color: blue;
+                   font-size: 20px;
+                   font-family: Arial, Helvetica, sans-serif;
+                }
+               .content::first-letter{
+                   content: "";
+                   display: block;
+                   margin-left: 50px;
+                   font-size: 40px;
+                   color: red;
+                   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                }
+               
+               
+
+                h1::selection{
+                    content: "";
+                    display: block;
+                    background-color: red;
+                    
+
+                }
+
+                .para::selection{
+                    content: "";
+                    display: block;
+                    color: red;
+                }
+                
+                
+                
+            
+            </style>
+
+
+               
+        
+        </head>
+                <!-- LƯU Ý : -->
+           
+                    <!-- Pseudo Element
+                    1.::after tạo một yếu tổ giả ở vị trí đầu tiên trong thẻ
+                    
+                    2.::before: tạo một yếu tổ giả ở vị trí cuối trong thẻ
+                    
+                    3.::first-letter: chỉ select tới phần tử đầu tiên
+
+                    4.::first-line: chỉ select tới dòng tử đầu tiên
+                   
+                    5.::selection chỉ khi lựa chọn đối tượng thì các attribute mới xuất hiện -->
+
+
+
+        <body>
+
+
+            <div class="para">nong van loc</div>
+
+            <div class="content">
+                <h1>Xin Chao<br>Tôi Là Lộc</h1>
+            </div>
+
+            <div>
+                <ul class="box">
+                    <li>123</li>
+                    <li>321</li>
+                    <li>111</li>
+                    <li>222</li>
+                    <li>333</li>
+                </ul>
+
+            </div>
+            
+            <h1 title="xin chao">Hello word !</h1>
+           
+        </body>
+
+
+
+
+
+    </html>

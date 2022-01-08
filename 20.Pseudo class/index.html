@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Web Developer</title>
+            <link rel="stylesheet" href="main.css">
+
+            <style>
+                h1:active{
+                    color: green;
+                    text-shadow: 5px 2px 2px rgba(3, 65, 27, 0.5);
+                }
+                /* h1:active{
+                    color: green;
+                    font-size: 25px;
+                    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                } */
+                .item:first-child{
+                    font-size: 35px;
+                    color: red;
+                    
+
+                }
+                .list:last-child{
+                    color: green;
+                    font-size: 50px;
+                }
+
+                .para:first-child{
+                    color: red;
+                }
+
+              
+                
+            </style>
+        
+        </head>
+           
+<!-- 
+            có 5 lớp giải phổ biến:
+            1.root ( lớp giả tham chiếu tới phần tử gốc thẻ html) biến toàn cục
+            2.hover(di chuột vào đối tượng mới thấy sự thay đổi)
+            3.active(bấm chuột---------------------------------)
+            4.first-child lấy đc đứa con đầu tiên và cuối cùng của 1 đối tượng
+            5.last-child
+         -->
+        
+        
+        
+        <body>
+            <div class="box"></div>
+            
+            <h1 title="xin chao">Hello world!</h1>
+
+
+            <div>
+                <ul class="list">
+                    <li class="item">abcd</li>
+                    <li class="item">defg</li>
+                    <li class="item">hikl</li>
+                </ul>
+            </div>
+
+            <div class="para">abcdrfgh</div>
+           
+            
+
+        </body>
+
+
+
+
+
+    </html>

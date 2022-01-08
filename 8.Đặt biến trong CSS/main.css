@@ -1,0 +1,16 @@
+:root{
+    --font-calib: 100px;
+}
+
+
+h1{
+   font-size: var(--font-calib); 
+}
+h2{
+    font-size: var(--font-calib); 
+ }
+ 
+ h3{
+    font-size: var(--font-calib); 
+ }
+ 
